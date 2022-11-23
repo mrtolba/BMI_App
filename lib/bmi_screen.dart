@@ -110,7 +110,7 @@ class _bmiScreenState extends State<bmiScreen> {
                         ),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10.0),
-                          color: isMale?  Colors.grey:Colors.blue,
+                          color: isMale?  Colors.grey:Colors.green,
                         ),
                       ),
                     ),
@@ -151,7 +151,7 @@ class _bmiScreenState extends State<bmiScreen> {
                        SizedBox(
                          width: 5.0,
                        ),
-                       Text(
+                       const Text(
                          'CM',
                          style: TextStyle(
                            fontWeight: FontWeight.bold,
